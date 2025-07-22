@@ -3,7 +3,6 @@ pipeline {
     agent { label "vinod" }
 
     stages {
-        
         stage('Calling a shared library'){
         steps{
             script{
