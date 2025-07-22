@@ -10,4 +10,4 @@ services:
     container_name: portfolio-app
     restart: unless-stopped
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=production 
